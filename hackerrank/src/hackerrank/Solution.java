@@ -98,11 +98,15 @@ public class Solution {
         
         
         // Verkaufen            
-        Iterator<Integer> it = gekauft.iterator();
+        /*Iterator<Integer> it = gekauft.iterator();
         while (it.hasNext())
         {
             result = result + (max - it.next());
+        }*/
+        for (Integer i : gekauft) {
+            result = result + (max - i);
         }
+        
         return result;
     }
 }
