@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 package hackerrank;
-import java.io.*;
-import java.math.*;
-import java.text.*;
-import java.util.*;
-import java.util.regex.*;
+
+/*Never use import unused libraries using asterisk*/
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
 import jdk.nashorn.internal.objects.NativeArray;
 
 /**
@@ -47,7 +48,9 @@ public class Solution {
     public int stockMaximize(int[] prices) {
         int result = 0;
         int max = 0;
-        List<Integer> gekauft = new LinkedList();
+        
+        /*Always, take care of passing the data type in generic field*/
+        List<Integer> gekauft = new LinkedList<>();
         System.out.println("stockMaximize wird aufgerufen \n");
         for (int i = 0; i<prices.length; i++) {
             for (int j = i; j<prices.length; j++) {
