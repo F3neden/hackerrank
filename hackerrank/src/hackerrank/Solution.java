@@ -4,13 +4,8 @@
  * and open the template in the editor.
  */
 package hackerrank;
-
-/*Never use import unused libraries using asterisk*/
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
-
-import jdk.nashorn.internal.objects.NativeArray;
 
 /**
  *
@@ -21,7 +16,7 @@ public class Solution {
     public Solution() {
     }
 
-    // create a new Method for each soliution inside this class
+    // create a new Method for each solution inside this class
     public int[] gradingStudents(int[] grades) {
         /*
          * Write your code here.
@@ -29,7 +24,7 @@ public class Solution {
         int[] result = new int [grades[0]];
         
         // Iterate trough each grade 
-        for (int i = 1; i < (grades[0]+1); i++)
+        for (int i = 1; i < result.length + 1; i++)
         {
             if (grades[i] >= 38)
             {
