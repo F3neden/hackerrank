@@ -7,9 +7,9 @@ package hackerrank;
 import java.io.*;
 import java.math.*;
 import java.text.*;
-import java.util.*;
+import java.util.List;
+import java.util.LinkedList;
 import java.util.regex.*;
-import jdk.nashorn.internal.objects.NativeArray;
 
 /**
  *
