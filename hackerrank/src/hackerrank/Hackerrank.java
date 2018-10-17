@@ -33,7 +33,7 @@ public class Hackerrank {
         
         int[] ergebnis = loesung.gradingStudents(grades);
         
-        for(int i =  0; i < grades[0]; i++) {
+        for(int i =  0; i < ergebnis.length; i++) {
             System.out.println(ergebnis[i]);
         }
     }
