@@ -33,8 +33,11 @@ public class Hackerrank {
         
         int[] ergebnis = loesung.gradingStudents(grades);
         
-        for(int i =  0; i < ergebnis.length; i++) {
-            System.out.println(ergebnis[i]);
+        // Always good to double check for null return
+        if( ergebnis != null ){
+            for(int i =  0; i < ergebnis.length; i++) {
+                System.out.println(ergebnis[i]);
+            }
         }
     }
     
