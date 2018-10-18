@@ -21,10 +21,10 @@ public class Solution {
         /*
          * Write your code here.
          */
-        int[] result = new int [grades[0]];
+        int[] result = new int [grades[0]]; //You could do new int [grades.length] if you wanted to handle any size of array.
         
         // Iterate trough each grade 
-        for (int i = 1; i < result.length + 1; i++)
+        for (int i = 1; i < result.length + 1; i++)  //This would start at the second item in the index and miss grades[0] and return an ArrayIndexOutOfBounds Exception
         {
             if (grades[i] >= 38)
             {
