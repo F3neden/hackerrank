@@ -5,9 +5,11 @@
  */
 package hackerrank;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * Please describe what this class do.
  *
  * @author Benutzer1
  */
@@ -16,11 +18,14 @@ public class Solution {
     public Solution() {
     }
 
-    // create a new Method for each solution inside this class
+    /**
+     * Rounds student's grades.
+     *
+     * @param grades Grades before rounding.
+     * @return Grades after rounding.
+     */
     public int[] gradingStudents(int[] grades) {
-        /*
-         * Write your code here.
-         */
+
         int[] result = new int [grades[0]];
         
         // Iterate trough each grade 
@@ -39,12 +44,19 @@ public class Solution {
         
         return result;
     }
-    
+
+    /**
+     * JFY(just for your information). In accordance with good coding style public methods should be documented.
+     * So, here should be the method's description.
+     *
+     * @param prices Here should be the parameters's description.
+     * @return Describe the return data.
+     */
     public int stockMaximize(int[] prices) {
         int result = 0;
         int max = 0;
         
-        /*Always, take care of passing the data type in generic field*/
+        // Always, take care of passing the data type in generic field.
         List<Integer> gekauft = new LinkedList<>();
         System.out.println("stockMaximize wird aufgerufen \n");
         for (int i = 0; i<prices.length; i++) {
@@ -88,6 +100,8 @@ public class Solution {
                     
                     // if lokal
                     // kaufen
+
+                    // Please try to avoid comments like above. It decreases your code readability.
                 }
             }
         }

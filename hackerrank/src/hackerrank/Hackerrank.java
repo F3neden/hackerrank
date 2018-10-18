@@ -20,14 +20,9 @@ public class Hackerrank {
         // initialize your new task here
         h.gradingStudents(loesung);
     }
-    
-    // create the task inside a new method here
-    public void gradingStudents(Solution loesung) {
-        
-//        Function Description
-//          Complete the function gradingStudents in the editor below. It should return an integer array consisting of rounded grades.
-//          gradingStudents has the following parameter(s):
-//          grades: an array of integers representing grades before rounding
+
+    // Method could be private as it never used except of this class.
+    private void gradingStudents(Solution loesung) {
 
         int[] grades = new int[]{4, 73, 67, 38, 33};
         
@@ -37,15 +32,10 @@ public class Hackerrank {
             System.out.println(ergebnis[i]);
         }
     }
-    
-    public void stockMaximize(Solution loesung) {
-        
-//        Function Description
-//          Complete the stockmax function in the editor below. It must return an integer that represents the maximum profit achievable.
-//          stockmax has the following parameter(s):
-//          prices: an array of integers that represent predicted daily stock prices
 
-//        int[] prices = new int[3];
+    private void stockMaximize(Solution loesung) {
+        
+        // For testing you would better to write Unit test. Google it please if you don't know.
         int[] testcase1 = new int[]{5,3,2};
         
         int[] testcase2 = new int[]{1,2,100};
