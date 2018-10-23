@@ -21,7 +21,7 @@ public class Solution {
     /**
      * Rounds student's grades.
      *
-     * @param grades Grades before rounding.
+     * @param Grades before rounding.
      * @return Grades after rounding.
      */
     public int[] gradingStudents(int[] grades) {
@@ -46,11 +46,10 @@ public class Solution {
     }
 
     /**
-     * JFY(just for your information). In accordance with good coding style public methods should be documented.
-     * So, here should be the method's description.
+     * Finds best days to buy and sell the stocks
      *
-     * @param prices Here should be the parameters's description.
-     * @return Describe the return data.
+     * @param prices: is the price forecast for n days
+     * @return Maximum possible stock profit
      */
     public int stockMaximize(int[] prices) {
         int result = 0;
